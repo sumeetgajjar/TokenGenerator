@@ -41,7 +41,7 @@
         console.log('Cols='+cols+"|count="+count+"|startNumber="+startNumber);
 
         var htmlToInsert = '';
-        for (var i = startNumber; i <= count+startNumber; i++) {
+        for (var i = startNumber; i <= count; i++) {
             htmlToInsert += '<div class="col-xs-' + cols + ' text-center token">' + i + '</div>';
         }
         $('#token').html(htmlToInsert);
